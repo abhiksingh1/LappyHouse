@@ -1,7 +1,7 @@
 import { message } from "antd";
 import axios from "axios";
 
-const BASE_URL = "https://lappy-houses.vercel.app"
+const BASE_URL = "https://lappy-house-backend.vercel.app"
 
 export const getAllLaptops = () => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
